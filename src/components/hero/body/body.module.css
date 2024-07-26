@@ -1,0 +1,74 @@
+.parent{
+     margin: 24px;
+}
+
+.flexForSelectAndInput{
+    display: flex;
+    justify-content: space-between;
+}
+
+.selectTags{
+    display: flex;
+    justify-content: space-between;
+}
+
+select{
+    height: 30px;
+    margin-right: 16px;
+    width: 150px;
+    border-radius: 8px;
+    background-color: rgb(19, 19, 66);
+    color: white;
+}
+
+input{
+    height: 30px;
+    width: 400px;
+    border-radius: 8px;
+    background-color: rgb(19, 19, 66);
+}
+textarea:focus, input:focus {
+    color: white;
+}
+::placeholder{
+    color: white;
+}
+
+
+@media (max-width:800px){
+    .flexForSelectAndInput{
+        flex-direction: column;
+    }
+    input{
+        width: 98.5%;
+        height: 40px;
+        font-size: 16px;
+        background-color: white;
+        border: 0.5px solid rgb(109, 100, 100);
+    }
+    textarea:focus, input:focus {
+    color: rgb(109, 100, 100);
+}
+
+::placeholder{
+    color: rgb(109, 100, 100);
+   }
+
+    .cityAndTypeSelectOptions{
+        display: flex;
+        flex-direction: column;
+    }
+    select{
+        margin: 0px 0px 10px 0px;
+        width: 100%;
+        border: none;
+        border-radius: 6px;
+        height: 45px;
+        font-size: 16px;
+        background-color: rgb(236, 241, 241);
+        color: rgb(43, 39, 39);
+    }
+    select:focus{
+        width: 50%;
+    }
+}

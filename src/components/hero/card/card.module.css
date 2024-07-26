@@ -1,0 +1,35 @@
+.image{
+    width: 70%;
+    height: 200px;
+    border-radius: 16px;
+}
+
+.cardsParent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card{
+    border-radius: 16px;
+    background-color: rgb(207, 196, 196);
+    padding: 8px;
+    margin: 16px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 30%;
+}
+
+.card > p{
+    margin-top: -8px;
+}
+
+@media(max-width:800px){
+    .card{
+        width: 90%;
+    }
+    .image{
+        width: 95%;
+    }
+}

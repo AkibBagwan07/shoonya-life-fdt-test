@@ -1,0 +1,14 @@
+.NextPrevParent{
+  display: flex;
+  justify-content: center;
+}
+
+button{
+    margin-right: 16px;
+    width: 70px;
+    height: 30px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(19, 19, 66);
+    color: white;
+}

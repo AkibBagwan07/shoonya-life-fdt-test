@@ -1,0 +1,32 @@
+.parent{
+    margin: 24px;
+    height: 350px;
+    border-radius: 16px;
+    background-color: rgb(207, 196, 196);
+}
+
+.heroImage{
+    height: 60%;
+    width: 97.2%;
+    border-radius: 16px;
+    margin: 16px 16px 0px 16px;
+   object-fit:cover;
+   object-position: 50% 60%;
+   filter: brightness(45%);
+}
+
+.quote{
+    font-size: 24px;
+    margin-left: 16px;
+}
+
+.advertise{
+    margin-left: 16px;
+    margin-top: -8px;
+}
+
+@media(max-width:800px){
+    .parent{
+        display: none;
+    }
+}
